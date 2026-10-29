@@ -3,53 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 3</title>
+    <title>Aula 4</title>
 
 </head>
 <body>
 
     <style>
-        .logo h3{
-            color: rgb(41, 35, 134);
+        .aura h1{
+            color: blue;
         }
     </style>
 
-    <div class="logo">
-        <h3>Cadastro Na GELEDAIRA</h3>
+    <div class="aura">
+        <h2>Login</h2>
+        <h1>GELEDAIRA</h1>
     </div>
+    
 
     <form action="#" method="post">
+
         <label for="nome">Nome:</label>
-        <input type="text" id="nome" placeholder="Seu Nome.." required>
         <br><br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" placeholder="seumail@email.com">
+        <input type="text" id="nome" placeholder="Seu nome completo..">
         <br><br>
-        <label for="senha">Senha:</label>
-        <input type="password" id="senha" placeholder="Sua Senha.." required>
+        <label for="email"> E-mail:</label>
         <br><br>
-        <label for="mensagem">Mensagem:</label>
-        <textarea name="mensagem" id="mensagem" cols="50" rows="4" placeholder="Escreva Aqui.."></textarea>
+        <input type="email" id="email" placeholder="seugmail@email.com">
         <br><br>
-        <label for="cidade">Cidade:</label>
-        <select name="cidade" id="cidade">
-            <option value="">Selecione</option>
-            <option value="nh">Novo Hamburgo</option>
-            <option value="sl">São Leopoldo</option>
-            <option value="cb">Campo Bom</option>
-            <option value="mgo">Montenegro</option>
-        </select>
+        <label for="senha">Senha (min 6, só letras e números):</label>
+        <br><br>
+        <input type="password" id="senha" pattern="[a-zA-Z0-9]{6,}" placeholder="Mínimo 6 caracteres.." required>
+        <br><br>
+        <label for="idade">Idade (13 a 99):</label>
+        <br><br>
+        <input type="number" id="idade" min="13" max="99" placeholder="Idade.." required>
+        <br><br>
+        <label for="data">Data (só em 2026):</label>
+        <br><br>
+        <input type="date" id="data" min="2026-01-01" max="2026-12-31">
+        <br><br>
+        <label for="number">Telefone:</label>
+        <br><br>
+        <input type="tel" id="telefone" pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}" placeholder="(51) 99999 9999">
+        <br><br>
+        <label for="nota">Nota (0 a 10):</label>
+        <br><br>
+        <input type="range" id="nota" min="0" max="10" value="7">
+        <br><br>
+        <label for="cor">Cor favorita:</label>
+        <br><br>
+        <input type="color" id="cor" value="3498db">
+        <br><br>
+        <label for="codigo">Código (gerado automaticamente):</label>
+        <br><br>
+        <input type="text" id="codigo" value="ALU-2026-001" disabled>
+        <br><br>
+        
+        <style>
+            .auraa button{
+                color: rgb(0, 68, 255);
+            }
+        </style>
 
-        <fieldset>
-            <legend>Gênero:</legend>
-            <input type="radio" id="masc" name="genero"
-            value="M">
-            <label for="masc">Masculino</label>
-            <input type="radio" id="fem" name="genero" value="F">
-            <label for="fem">Feminino</label>
-        </fieldset>
+        <div class="auraa">
+            <button type="submit">Enviar</button>
+        </div>
+        
 
+        
     </form>
+
 
 </body>
 </html>
