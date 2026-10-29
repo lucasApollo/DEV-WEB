@@ -17,54 +17,63 @@
     </tr>
     </table>
     <br><br>
-    <table>
-    <table border="1" cellpadding="10" cellspacing="0">
-       <thead>
-          <tr>
-             <th>Nome</th>
-             <th>Idade</th>
-             <th>Hobby</th>
-          </tr>
-       </thead>
-       <tbody>
-          <tr>
-             <td>Lucas</td>
-             <td>14</td>
-             <td>Jogar Bola</td>
-          </tr>
-          <tr>
-            <td>Miguel</td>
-            <td>14</td>
-            <td>Andar A Cavalo</td>
-          </tr>
-          <tr>
-            <td>Bernardo</td>
-            <td>14</td>
-            <td>Jogar Futebol</td>
-          </tr>
-          <tr>
-            <td>Marcos</td>
-            <td>18</td>
-            <td>Jogar No PC</td>
-          </tr>
-          <tr>
-            <td>Erick</td>
-            <td>15</td>
-            <td>Academia</td>
-          </tr>
-          <tr>
-            <td>Kaua</td>
-            <td>16</td>
-            <td>Jogar Games</td>
-          </tr>
-    </table>
+    
+    <div class="table">
+        <table>
+            <table border="1" cellpadding="10" cellspacing="0">
+               <thead>
+                  <tr>
+                     <th>Nome</th>
+                     <th>Idade</th>
+                     <th>Hobby</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>Lucas</td>
+                     <td>14</td>
+                     <td>Jogar Bola</td>
+                  </tr>
+                  <tr>
+                    <td>Miguel</td>
+                    <td>14</td>
+                    <td>Andar A Cavalo</td>
+                  </tr>
+                  <tr>
+                    <td>Bernardo</td>
+                    <td>14</td>
+                    <td>Jogar Futebol</td>
+                  </tr>
+                  <tr>
+                    <td>Marcos</td>
+                    <td>18</td>
+                    <td>Jogar No PC</td>
+                  </tr>
+                  <tr>
+                    <td>Erick</td>
+                    <td>15</td>
+                    <td>Academia</td>
+                  </tr>
+                  <tr>
+                    <td>Kaua</td>
+                    <td>16</td>
+                    <td>Jogar Games</td>
+                  </tr>
 
+            </table>
+    </div>
+
+    <style>
+        .table thead{
+            color: brown;
+        }
+    </style>
+    
 
     <style>
         .logo h2{
             color: rgb(41, 35, 134);
-        .aura h1{
-            color: blue;
+
         }
     </style>
 
@@ -83,7 +92,7 @@
         <br><br>
         <label for="senha">Senha:</label>
         <br><br>
-        <input type="password" id="senha" placeholder="Sua Senha Aqui ( LETRAS OU NÚMEROS).." required pattern="[a-zA-Z0-9]">
+        <input type="password" id="senha" placeholder="Sua Senha Aqui.." required>
         <br><br>
         <label for="cidade">Cidade:</label>
         <br><br>
@@ -104,6 +113,8 @@
         <input type="color" id="cor" value="3498db">
         <br><br>
         <button type="submit">ENVIAR</button>
+
+    </form>
  
 </body>
 </html>
