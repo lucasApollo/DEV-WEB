@@ -5,15 +5,16 @@
     }
 
     h1{
-        box-shadow: 10px 10px 3px rgba(86, 126, 163, 0.5);
-        margin: 10px;
-        padding: 10px;
+        border: 1x solid black;
+        background-color: lightblue;
     }
 
     p{
-        border:2px solid black;
-        margin: 10px;
-        text-align: center;
-        width: 200px;
-        padding: 10px 20px;
+        border: 1px solid black;
+        background-color: lightgreen;
+    }
+
+    div{
+        border: 1px solid black;
+        background-color: lightcoral;
     }
