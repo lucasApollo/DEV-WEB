@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Redaction+50:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
     body{
-        font-family: 'Redaction 50';
+        background-color: rgb(224, 205, 150);
+    }
+
+    h1{
+        box-shadow: 10px 10px 3px rgba(86, 126, 163, 0.5);
+        margin: 10px;
+        padding: 10px;
+    }
+
+    p{
+        border:2px solid black;
+        margin: 10px;
+        text-align: center;
+        width: 200px;
+        padding: 10px 20px;
     }
