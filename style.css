@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Redaction+20:ital,wght@0,400;0,700;1,400&family=Redaction+50:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-    .tag{
-        display: inline-block;
-        width: 120px;
-        padding-right: 15px 10px;
-        margin: 5px;
-        background-color: #eee8fa;
-        color: #4d347a;
-        text-align: center;
-        border-radius: 8px;
-    }
+.container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.item{
+    background-color: #ddf2fa;
+    border: 2px solid #246b9e;
+    padding: 25px;
+}
