@@ -10,9 +10,81 @@
 </head>
 <body>
 
-    <h1>FAzendo Um Teste</h1>
-    <p>Outro Teste</p>
-    <div>Mais Um Teste</div>
+  <h1>Cadastro de alunos</h1>
+  <h2>Alunos Cadastrados</h2>
+  <table border="5px">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Curso</th>
+        <th>Idade</th>
+        <th>Cidade</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Ana Silva</td>
+        <td>Desenvolvedor</td>
+        <td>19</td>
+        <td>Novo Hamburgo</td>
+      </tr>
+      <tr>
+        <td>Pedro Oliveira</td>
+        <td>Informatica</td>
+        <td>22</td>
+        <td>Sao Leopoldo</td>
+      </tr>
+      <tr>
+        <td>Julia Elisa</td>
+        <td>Custureira</td>
+        <td>18</td>
+        <td>Campo Bom</td>
+      </tr>
+      <tr>
+        <td>Bernardo</td>
+        <td>Excel</td>
+        <td>89</td>
+        <td>Sapucaia</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Novos Cadastros</h2>
+  <form action="#" method="post">
+
+    <label for="nome">Nome Completos:</label>
+    <br><br>
+    <input type="text" id="nome" placeholder="Digite seu nome..">
+    <br><br>
+
+    <label for="email">Email:</label>
+    <br><br>
+    <input type="text" id="email" placeholder="Digite seu email..">
+    <br><br>
+
+    <label for="idade">Idade:</label>
+    <br><br>
+    <input type="number" id="idade" placeholder="Digite sua idade..">
+    <br><br>
+
+    <label for="curso">Escolha seu curso:</label>
+    <select name="curso" id="curso">
+        <option value="">Selecione um curso</option>
+        <option value="informatica">Informática</option>
+        <option value="excel">Excel</option>
+        <option value="desenvolvedor">Desenvolvedor</option>
+        <option value="custureira">Custureira</option>
+    </select>
+    <br><br>
+    <label for="mensagem">Observações</label>
+    <textarea id="mensagem" rows="4" placeholder="Digite alguma observação"></textarea>
+    <br><br>
+    <button type="submit">Cadastrar</button>
+
   
+  
+  </form>
+
+   
 </body>
 </html>
