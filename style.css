@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Redaction+20:ital,wght@0,400;0,700;1,400&family=Redaction+50:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-    .caixa{
+    strong{
+        background-color: #fcebd8;
+        color: #8a4b08;
+    }
+    a{
+        color: #246b9e;
+        margin-right: 10px;
         display: block;
-        background-color: #ddf2fa;
-        border: 2px solid #246b9e;
-        padding: 20px;
-        margin-bottom: 10px;
     }
